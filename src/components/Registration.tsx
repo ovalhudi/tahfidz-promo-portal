@@ -67,7 +67,7 @@ const Registration = () => {
             Daftar Sekarang
           </span>
           <h2 className="text-3xl md:text-4xl font-serif font-bold text-tahfidz-800 mb-4">
-            Mulai Perjalanan Menghafal Al-Qur'an
+            Mulai Perjalanan Menghafal Al-Qur&apos;an
           </h2>
           <p className="text-tahfidz-600">
             Isi formulir pendaftaran di bawah ini, dan tim kami akan segera menghubungi Anda 
@@ -144,11 +144,11 @@ const Registration = () => {
                       <SelectValue placeholder="Pilih rentang usia" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="< 18 tahun">< 18 tahun</SelectItem>
+                      <SelectItem value="Kurang dari 18 tahun">Kurang dari 18 tahun</SelectItem>
                       <SelectItem value="18-25 tahun">18-25 tahun</SelectItem>
                       <SelectItem value="26-35 tahun">26-35 tahun</SelectItem>
                       <SelectItem value="36-45 tahun">36-45 tahun</SelectItem>
-                      <SelectItem value="> 45 tahun">> 45 tahun</SelectItem>
+                      <SelectItem value="Lebih dari 45 tahun">Lebih dari 45 tahun</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -181,7 +181,7 @@ const Registration = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="Belum pernah">Belum pernah</SelectItem>
-                      <SelectItem value="< 1 juz">< 1 juz</SelectItem>
+                      <SelectItem value="Kurang dari 1 juz">Kurang dari 1 juz</SelectItem>
                       <SelectItem value="1-5 juz">1-5 juz</SelectItem>
                       <SelectItem value="6-15 juz">6-15 juz</SelectItem>
                       <SelectItem value="16-29 juz">16-29 juz</SelectItem>
